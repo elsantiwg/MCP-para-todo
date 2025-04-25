@@ -1,3 +1,5 @@
+[![MseeP Badge](https://mseep.net/pr/elsantiwg-mcp-para-todo-badge.jpg)](https://mseep.ai/app/elsantiwg-mcp-para-todo)
+
 # 🌐 MCP para todo – Servidor modular con herramientas útiles
 
 Este proyecto es un ejemplo de como se haria un mcp 
