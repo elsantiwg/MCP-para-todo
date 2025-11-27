@@ -60,13 +60,13 @@ cp .env.example .env
 ```
 npm run dev
 ```
-##Configuración .env
+# Configuración .env
 ```
 OPENWEATHER_API_KEY=tu_api_key_aca
 DICTIONARY_API_URL=https://api.dictionaryapi.dev/api/v2
 ```
-###🔌 Integración con Clientes MCP
-##Ejemplo de Conexión
+### 🔌 Integración con Clientes MCP
+## Ejemplo de Conexión
 ```
 // Cliente MCP se conecta al servidor
 const client = new MCPClient('ws://localhost:3000');
@@ -77,8 +77,8 @@ const client = new MCPClient('ws://localhost:3000');
 const weather = await client.callTool('get_weather', { city: 'Madrid' });
 const calculation = await client.callTool('evaluate_math', { expression: 'sin(π/2)' });
 ```
-###🧩 Extensión del Sistema
-##Crear Nueva Herramienta
+### 🧩 Extensión del Sistema
+## Crear Nueva Herramienta
 ```
 // src/tools/nueva-herramienta.ts
 export const nuevaHerramienta: ToolHandler = {
@@ -96,7 +96,7 @@ export const nuevaHerramienta: ToolHandler = {
   }
 };
 ```
-##Registro en el Servidor
+## Registro en el Servidor
 ```
 // En src/tools/index.ts
 export const tools = [
@@ -106,13 +106,13 @@ export const tools = [
   nuevaHerramienta  // ← Nueva herramienta agregada
 ];
 ```
-###🚀 Casos de Uso
-#Asistentes Inteligentes
-#Agentes conversacionales con capacidades reales
+### 🚀 Casos de Uso
+# Asistentes Inteligentes
+# Agentes conversacionales con capacidades reales
 
-#Bots de customer service con acceso a datos en tiempo real
+# Bots de customer service con acceso a datos en tiempo real
 
-#Asistentes personales con contexto del mundo real
+# Asistentes personales con contexto del mundo real
 
 Automatización
 Procesamiento de datos con capacidades de cálculo
@@ -121,7 +121,7 @@ Integración con sistemas empresariales
 
 Workflows automatizados con razonamiento de IA
 
-###📊 Roadmap
+### 📊 Roadmap
 Más herramientas: Traducción, noticias, conversión de monedas
 
 Autenticación: Sistema de seguridad para herramientas sensibles
